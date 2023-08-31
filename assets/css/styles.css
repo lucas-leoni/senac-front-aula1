@@ -2,63 +2,9 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-image: url('//picsum.photos/1920/1080');
 }
 
-h1 {
-  color: tomato; /* atributo CSS color */
-}
-h2 {
-  color: pink;
-}
-.h3 {
-  color: azure;
-}
-
-.menu {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-
-  border-width: 1px;
-  border-style: solid;
-  border-color: red;
-}
-
-.menu li {
-  border: 1px solid red;
-}
-
-.borda {
-  border: 1px solid red;
-  box-sizing: border-box; /* tamanho seja medido por interno*/
-}
-
-.container-custom {
-  max-width: 1400px; /* Largura máxima */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.linha {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col {
-  flex-basis: 50%;
-}
-
-.logo {
-  text-align: center;
-}
-
-.logo img {
-  max-width: 100px;
-  height: auto;
-}
-
-.fundo {
-  /* background-image: url(../images/background.jpg); */
-  background-size: contain;
+.fundo-madeira {
+  background-image: url('../images/fundo.png');
 }
